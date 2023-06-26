@@ -1,20 +1,27 @@
 <template>
-    <div>
+    <footer>
         <h1>
             Footer
         </h1>
-    </div>
+        <SolcialNavbar />
+    </footer>
 </template>
 
 
 <script>
+import SolcialNavbar from './SolcialNavbar.vue';
+
+
 export default {
     name: 'Footer',
     data() {
         return {
 
         }
-    }
+    },
+    components: {
+        SolcialNavbar,
+    },
 }
 </script>
 
