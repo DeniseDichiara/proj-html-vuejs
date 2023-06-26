@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="callus">
         SolcialNavbar
     </div>
 </template>
@@ -19,4 +19,9 @@ export default {
 
 <style lang="scss">
     
+    .callus{
+        background-color: #6abf17;
+        color: white;
+
+    }
 </style>
