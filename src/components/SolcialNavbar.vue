@@ -1,6 +1,7 @@
 <template>
     <div class="callus">
         SolcialNavbar
+        <i class="fa-solid fa-phone-flip" style="color: #ffffff;"></i>
     </div>
 </template>
 
