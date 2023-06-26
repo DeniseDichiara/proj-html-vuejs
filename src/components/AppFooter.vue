@@ -3,6 +3,9 @@
         <h1>
             Footer
         </h1>
+        <h4>
+            ABOUT
+        </h4>
         <SolcialNavbar />
     </footer>
 </template>

@@ -3,6 +3,9 @@
         <h1>
             Main
         </h1>
+        <h2>
+            TWO MAN TEAMS
+        </h2>
     </div>
 </template>
 

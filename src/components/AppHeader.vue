@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="callus">
         <SolcialNavbar />
     </header>
 </template>
