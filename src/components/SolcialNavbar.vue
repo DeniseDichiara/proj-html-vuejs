@@ -1,7 +1,7 @@
 <template>
     <div class="container ">
         <div class="row">
-            <div class="col-12 d-flex">
+            <div class="col-12 d-flex direction-row justify-content-between">
                 <div>
                     <i class="fa-solid fa-phone-flip" style="color: #ffffff;"></i>
                 </div>
