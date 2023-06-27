@@ -1,7 +1,11 @@
 <template>
-    <div>
+    <div class="CallAction">
+        <div>
+            <i class="fa-solid fa-paper-plane" style="color: white;"></i>
+        </div>
+
         <p>
-            AppCallAction
+            Get a free quote online now!
         </p>
     </div>
 </template>
@@ -15,5 +19,8 @@ export default {
 
 
 <style lang="scss">
-    
+    .CallAction{
+        background-color: #1775bf;
+        color: white;
+    }
 </style>

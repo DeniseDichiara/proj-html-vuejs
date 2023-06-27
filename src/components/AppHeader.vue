@@ -4,6 +4,19 @@
             <SolcialNavbar />
         </div>
         <AppLinks />
+        <div class= "mx-auto">
+            <p class="p-grey text-uppercase">
+                Moving without the hassle
+            </p>
+
+            <h1 class="simple">
+                WE MAKE IT SIMPLE
+            </h1>
+
+            <p class="p-grey text-uppercase">
+                Professional service with quality and customer satisfaction
+            </p>
+        </div>
     </header>
 </template>
 
@@ -29,5 +42,13 @@ export default {
 
 
 <style lang="scss">
-    
+.p-grey {
+    color: #777777;
+    font-weight: bold;
+}
+
+.simple{
+    font-weight: 800;
+    color: black;
+}
 </style>
