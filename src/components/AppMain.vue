@@ -16,7 +16,7 @@ import AppCallAction from './AppCallAction.vue';
 import AppHeadache from './AppHeadache.vue';
 import AppServiceSolution from './AppServiceSolution.vue';
 import AppEase from './AppEase.vue';
-import AppTestimonials from './AppTestiomonials.vue';
+import AppTestimonials from './AppTestimonials.vue';
 
 
 export default {
