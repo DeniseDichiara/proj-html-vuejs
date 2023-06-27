@@ -12,7 +12,7 @@
                             Moving without the hassle
                         </p>
 
-                        <h1 class=" fs-1 simple my_moving">
+                        <h1 class=" simple my_moving">
                             WE MAKE IT SIMPLE
                         </h1>
 
@@ -54,23 +54,5 @@ export default {
 <style lang="scss">
 .header-bg{
     background-image: url('/img/avada-movers-homeherobackground-final.jpg');
-}
-
-.p-grey {
-    color: #777777;
-    font-weight: bold;
-    font-size: x-small;
-}
-
-.simple {
-    font-size: 50rem;
-    font-weight: bold;
-    color: black;
-}
-
-.my_moving{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 </style>

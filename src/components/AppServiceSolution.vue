@@ -1,24 +1,36 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                
+    <div>
+        <SecondaryTitle />
+        <SingleCardService />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
             </div>
+            <p>
+                AppServiceSolution
+            </p>
         </div>
-        <p>
-            AppServiceSolution
-        </p>
     </div>
 </template>
 
 
 <script>
+import SecondaryTitle from './SecondaryTitle.vue'
+import SingleCardService from './SingleCardService.vue'
+
 export default {
     name: 'AppServiceSolution',
+
+    components: {
+        SecondaryTitle,
+        SingleCardService
+    },
 }
 </script>
 
 
 <style lang="scss">
-    
 </style>
