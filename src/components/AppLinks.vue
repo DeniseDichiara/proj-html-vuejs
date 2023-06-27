@@ -7,7 +7,7 @@
                 </div>
                 <div class="d-flex direction-row">
                     <nav>
-                        <ul>
+                        <ul class="d-flex direction-row">
                             <li v-for="link in navbarLinks">
                                 <a :href="link.link" :class="active ? 'active' : ''">
                                     {{link.text}}
@@ -16,7 +16,7 @@
                         </ul>
                     </nav>
                     <div>
-                        FREE QUOTE
+                        <button type="button" class="btn btn-primary my_btn">FREE QUOTE</button>
                     </div>
                 </div>
             </div>
@@ -73,6 +73,7 @@ export default {
         padding: 1rem;
         font-size: 0.9rem;
         font-weight: 600;
+
 
         transition: background-color 1s ease;
     }
