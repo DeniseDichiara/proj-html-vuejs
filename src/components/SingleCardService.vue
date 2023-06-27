@@ -1,0 +1,19 @@
+<template>
+    <div>
+        SINGLE CARD
+    </div>
+</template>
+
+<!--*DENTRO A SERVICE SOLUTION-->
+
+
+<script>
+export default {
+    
+}
+</script>
+
+
+<style lang="scss">
+    
+</style>

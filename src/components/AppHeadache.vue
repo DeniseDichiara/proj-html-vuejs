@@ -22,7 +22,7 @@
                                 quibusdam nulla eveniet iure laboriosam eum possimus a. Sit.
                             </p>
                             <div>
-                                <button type="button" class="btn btn-primary my_btn">FREE QUOTE</button>
+                                <button type="button" class="btn btn-primary my_btn">READ OUR TESTIMONIALS</button>
                             </div>
                         </div>
                     </div>
