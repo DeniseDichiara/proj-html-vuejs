@@ -8,9 +8,9 @@
                 <div class="d-flex direction-row">
                     <nav>
                         <ul>
-                            <li>
-                                <a href="">
-                                    Home
+                            <li v-for="link in navbarLinks">
+                                <a :href="link.link" :class="active ? 'active' : ''">
+                                    {{link.text}}
                                 </a>
                             </li>
                         </ul>
