@@ -9,12 +9,12 @@
                                 headeache free
                             </p>
 
-                            <h1 class=" fs-1 simple my_moving">
+                            <h2 class=" my_moving fw-bold">
                                 Award Wining
-                            </h1>
-                            <h1 class=" fs-1 simple my_moving">
+                            </h2>
+                            <h2 class="my_moving fw-bold">
                                 MovingCompany
-                            </h1>
+                            </h2>
 
                             <p class="p-grey text-uppercase my_moving">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ipsum nihil dignissimos
