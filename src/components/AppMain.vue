@@ -7,6 +7,7 @@
         <AppServiceSolution />
         <AppEase />
         <AppTestimonials />
+        <AppQuote />
     </main>
 </template>
 
@@ -17,7 +18,7 @@ import AppHeadache from './AppHeadache.vue';
 import AppServiceSolution from './AppServiceSolution.vue';
 import AppEase from './AppEase.vue';
 import AppTestimonials from './AppTestimonials.vue';
-
+import AppQuote from './AppQuote.vue';
 
 export default {
     name: 'Main',
@@ -32,7 +33,8 @@ export default {
         AppHeadache,
         AppServiceSolution,
         AppEase,
-        AppTestimonials
+        AppTestimonials,
+        AppQuote
     }
 }
 </script>

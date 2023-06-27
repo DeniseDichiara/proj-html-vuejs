@@ -1,6 +1,8 @@
 <template>
     <div>
-        
+        <p>
+            AppQuote
+        </p>
     </div>
 </template>
 
