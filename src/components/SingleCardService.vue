@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex direction-row justify-content-center px-5">
-                <div v-for="card in multilpleCards" class="card d-flex direction-row px-3 me-5" style="width: 30rem;">
+                <div v-for="card in multilpleCards" class="card d-flex direction-row px-3 me-5 " style="width: 30rem;">
                     <img src="card.img" class="card-img-top d-flex justify-content-center" alt="Card image">
                     <div class="card-body">
                         <h3 class="text-center">
@@ -51,4 +51,5 @@ export default {
 </script>
 
 
-<style lang="scss"></style>
+<style lang="scss">
+</style>

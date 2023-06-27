@@ -3,8 +3,8 @@
         <div class="callus">
             <SolcialNavbar />
         </div>
-        <AppLinks />
-        <div class="container pt-5">
+        <AppLinks/>
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="mx-auto">
@@ -50,6 +50,7 @@ export default {
 <style lang="scss">
 .header-bg{
     height: 500px;
+    width: 1640px;
     background-image: url('/img/avada-movers-homeherobackground-final.jpg');
     background-size: cover;
 }
