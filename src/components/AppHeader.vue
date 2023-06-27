@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="header-bg">
         <div class="callus">
             <SolcialNavbar />
         </div>
@@ -22,6 +22,8 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 mb-5"></div>
+            <div class="col-12 mb-5"></div>
         </div>
 
 
@@ -50,6 +52,10 @@ export default {
 
 
 <style lang="scss">
+.header-bg{
+    background-image: url('/img/avada-movers-homeherobackground-final.jpg');
+}
+
 .p-grey {
     color: #777777;
     font-weight: bold;

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 d-flex direction-row justify-content-between my-3">
                 <div>
-                    <img src="../assets/img/avada-movers-logo.png" alt="Avada Movers logo">
+                    <img src="/img/avada-movers-logo.png" alt="Avada Movers logo">
                 </div>
                 <div class="d-flex direction-row">
                     <nav>
