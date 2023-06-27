@@ -1,12 +1,21 @@
 <template>
     <div class="CallAction">
-        <div>
-            <i class="fa-solid fa-paper-plane" style="color: white;"></i>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="my_moving  my_align">
+                        <div class="pe-3">
+                            <i class="fa-solid fa-paper-plane" style="color: white;"></i>
+                        </div>
+
+                        <p class="text-uppercase">
+                            Get a free quote online now!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <p>
-            Get a free quote online now!
-        </p>
     </div>
 </template>
 
@@ -19,8 +28,13 @@ export default {
 
 
 <style lang="scss">
-    .CallAction{
-        background-color: #1775bf;
-        color: white;
-    }
+.CallAction {
+    height: 100px;
+    background-color: #1775bf;
+    color: white;
+}
+
+.my_align{
+    line-height: 100px;
+}
 </style>
