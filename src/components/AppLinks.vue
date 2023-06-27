@@ -68,4 +68,12 @@ export default {
 </script>
 
 
-<style lang="scss"></style>
+<style lang="scss">
+    li{
+        padding: 1rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+
+        transition: background-color 1s ease;
+    }
+</style>
