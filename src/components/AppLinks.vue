@@ -16,7 +16,7 @@
                         </ul>
                     </nav>
                     <div>
-                        <button type="button" class="btn btn-primary my_btn">FREE QUOTE</button>
+                        <button type="button" class="my_btn-color my_btn">FREE QUOTE</button>
                     </div>
                 </div>
             </div>

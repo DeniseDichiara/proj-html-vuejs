@@ -52,6 +52,16 @@ a{
     text-transform: uppercase;
 }
 
+.my_btn-color{
+    background-color: #1775bf;
+    color: white;
+    border: 0;
+}
+
+
+.my_btn-color:hover{
+    background-color: deepskyblue;
+}
 .p-grey {
     color: #777777;
     font-weight: bold;

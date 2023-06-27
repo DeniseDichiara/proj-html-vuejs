@@ -2,18 +2,22 @@
     <div class="testimonial-bg">
 
         <TestimonialTitle />
+        <TestimonialSingleCard />
     </div>
 </template>
 
 
 <script>
 import TestimonialTitle from './TestimonialTitle.vue';
+import TestimonialSingleCard from './TestimonialSingleCard.vue';
+
 
 export default {
     name: 'AppTestimonials',
 
     components: {
         TestimonialTitle,
+        TestimonialSingleCard,
     },
 }
 
