@@ -1,5 +1,5 @@
 <template>
-    <div class="headache">
+    <div class="headache padding-top-big padding-bottom-big">
         <div class="p-grey">
             <div class="container">
                 <div class="row">
@@ -12,7 +12,7 @@
                             <h2 class=" my_moving fw-bold">
                                 Award Wining
                             </h2>
-                            <h2 class="my_moving fw-bold">
+                            <h2 class="my_moving fw-bold margin-h2">
                                 MovingCompany
                             </h2>
 

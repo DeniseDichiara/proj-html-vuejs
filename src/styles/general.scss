@@ -11,12 +11,14 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     color:#6abf17;
 }
 
 h3{
     color: #1775bf;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 h4{
@@ -47,6 +49,7 @@ a{
     border-radius: 6.5rem;
     padding: 0.5rem 1rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .p-grey {
@@ -64,5 +67,17 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.padding-top-big{
+    padding-top: 7%;
+}
+
+.padding-bottom-big{
+    padding-bottom: 7%;
+}
+
+.margin-h2{
+    margin: 0 0 20px;
 }
 
