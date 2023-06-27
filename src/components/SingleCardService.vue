@@ -8,9 +8,9 @@
                         <h3 class="text-center">
                             {{ card.title }}
                         </h3>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the
-                            card's
-                            content.</p>
+                        <p class="card-text text-center">
+                            {{ card.p }}
+                        </p>
                         <a href="#" class="btn btn-primary my_btn d-flex justify-content-center">Read More</a>
                     </div>
                 </div>
@@ -27,24 +27,21 @@ export default {
         return {
             multilpleCards: [
                 {
-                    img: '',
+                    src: 'public/img/avada-movers-serviceonephoto-final.jpg',
                     title: 'Two Man Teams',
-                    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt odio ipsum minima nisi eum quod harum, iste id porro beatae.',
-                    button: 'Read More'
+                    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae.',
                 },
 
                 {
-                    img: '',
+                    src: 'img/avada-movers-servicetwophoto-final.jpg',
                     title: 'We Do The Lifting',
-                    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt odio ipsum minima nisi eum quod harum, iste id porro beatae.',
-                    button: 'Read More'
+                    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae.',
                 },
 
                 {
-                    img: '',
+                    src: 'img/avada-movers-servicethreephoto-final.jpg',
                     title: 'Cost To Cost',
-                    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt odio ipsum minima nisi eum quod harum, iste id porro beatae.',
-                    button: 'Read More'
+                    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae.',
                 },
 
             ]

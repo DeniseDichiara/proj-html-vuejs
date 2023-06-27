@@ -22,11 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 mb-5"></div>
-            <div class="col-12 mb-5"></div>
         </div>
-
-
     </header>
 </template>
 
@@ -53,6 +49,8 @@ export default {
 
 <style lang="scss">
 .header-bg{
+    height: 500px;
     background-image: url('/img/avada-movers-homeherobackground-final.jpg');
+    background-size: cover;
 }
 </style>

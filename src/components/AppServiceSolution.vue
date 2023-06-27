@@ -9,17 +9,15 @@
 
                 </div>
             </div>
-            <p>
-                AppServiceSolution
-            </p>
         </div>
     </div>
 </template>
 
 
 <script>
-import SecondaryTitle from './SecondaryTitle.vue'
-import SingleCardService from './SingleCardService.vue'
+import SecondaryTitle from './SecondaryTitle.vue';
+import SingleCardService from './SingleCardService.vue';
+import axios from 'axios';
 
 export default {
     name: 'AppServiceSolution',
@@ -28,9 +26,20 @@ export default {
         SecondaryTitle,
         SingleCardService
     },
+
+    //
+    /*created() {
+        axios.get('')
+            .then(function (response) {
+                console.log(response);
+            })
+
+            .catch(function (error) {
+                console.log(error);
+            });
+    }*/
 }
 </script>
 
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>
