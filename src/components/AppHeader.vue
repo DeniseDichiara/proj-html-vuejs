@@ -1,13 +1,16 @@
 <template>
-    <header class="callus">
-        <SolcialNavbar />
+    <header>
+        <div class="callus">
+            <SolcialNavbar />
+        </div>
+        <AppLinks />
     </header>
 </template>
 
 
 <script>
 import SolcialNavbar from './SolcialNavbar.vue';
-
+import AppLinks from './AppLinks.vue';
 
 export default {
     name: 'Header',
@@ -19,6 +22,7 @@ export default {
 
     components: {
         SolcialNavbar,
+        AppLinks,
     },
 }
 </script>
