@@ -4,7 +4,7 @@
             <div class="col-12 d-flex direction-row justify-content-center px-5">
                 <div v-for="card in TestimonialmultilpleCards" class="card d-flex direction-row px-3 me-5 "
                     style="width: 30rem;">
-                    <img src="card.img" class="card-img-top d-flex justify-content-center" alt="Card image">
+                    <img v-bind:srcset="card.src" class="card-img-top d-flex justify-content-center" alt="Card image">
                     <div class="card-body">
                         <h3 class="text-center">
                             {{ card.title }}
@@ -28,19 +28,19 @@ export default {
         return {
             TestimonialmultilpleCards: [
                 {
-                    src: 'public/img/avada-movers-serviceonephoto-final.jpg',
+                    src: '../public/img/avada-movers-johndoe-final-200x200.jpg',
                     title: 'John Doe',
                     p: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae."',
                 },
 
                 {
-                    src: 'img/avada-movers-servicetwophoto-final.jpg',
+                    src: '../public/img/avada-movers-janedoe-final-200x200.jpg',
                     title: 'Jane Doe',
                     p: ' "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae."',
                 },
 
                 {
-                    src: 'img/avada-movers-servicethreephoto-final.jpg',
+                    src: '../public/img/avada-movers-johnsmith-final-200x200.jpg',
                     title: 'John Smith',
                     p: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae."',
                 },
@@ -52,4 +52,10 @@ export default {
 </script>
 
 
-<style lang="scss"></style>
+<style lang="scss">
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+</style>
