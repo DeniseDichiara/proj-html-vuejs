@@ -6,9 +6,13 @@
                 <h2 class="my_moving fw-bold margin-h2">
                     Request A Free Quote
                 </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error temporibus molestiae fuga explicabo praesentium cumque, aut quam velit repellat facilis, a perferendis rem corrupti, odit vel alias. Molestiae, esse consectetur?
-                </p>
+                <div class="my_quote mx-auto">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error temporibus molestiae fuga explicabo
+                        praesentium cumque, aut quam velit repellat facilis, a perferendis rem corrupti.
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
@@ -22,4 +26,8 @@ export default {
 </script>
 
 
-<style lang="scss"></style>
+<style lang="scss">
+    .my_quote{
+        width: 700px;
+    }
+</style>
