@@ -38,11 +38,17 @@ ul{
 }
 
 li{
-    color: black;
+    font-weight: bold;
+    margin-right: 30px;
 }
 
 a{
     text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #6abf17;
 }
 
 .my_btn{

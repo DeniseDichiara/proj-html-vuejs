@@ -39,13 +39,12 @@
                                     avada movers
                                 </h4>
                                 <ul>
-                                    <!--! CICLARE CON V-FOR-->
-
-                                    <li> <a href="#">Home</a></li>
-                                    <li>Rates</li>
-                                    <li>Testimonials</li>
-                                    <li>Blog</li>
-                                    <li>Free Quote</li>
+                                    <li v-for="link in navbarFooterLinks">
+                                        <a :href="link.link" :class="active ? 'active' : ''">
+                                            {{link.text}}
+                                        </a>
+                                    </li>
+                                    
                                 </ul>
                             </nav>
                         </div>
@@ -127,7 +126,38 @@ export default {
     name: 'Footer',
     data() {
         return {
-
+            navbarFooterLinks: [
+                {
+                    link: '#',
+                    text: 'Home',
+                    active: true
+                },
+                {
+                    link: '#',
+                    text: 'Rates',
+                    active: true
+                },
+                {
+                    link: '#',
+                    text: 'Testimonials',
+                    active: false
+                },
+                {
+                    link: '#',
+                    text: 'FAQ',
+                    active: false
+                },
+                {
+                    link: '#',
+                    text: 'Blog',
+                    active: false
+                },
+                {
+                    link: '#',
+                    text: 'Free Quote',
+                    active: false
+                },
+            ]
         }
     },
 
