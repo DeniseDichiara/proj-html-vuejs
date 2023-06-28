@@ -56,13 +56,12 @@
                                     recent posts
                                 </h4>
                                 <ul>
-
-                                    <!--! CICLARE CON V-FOR-->
-                                    <li class="text-capitalize"> > heading out to college?</li>
-                                    <li class="text-capitalize"> > moving your business?</li>
-                                    <li class="text-capitalize"> > outsanding quality</li>
-                                    <li class="text-capitalize"> > cost of moving</li>
-                                    <li class="text-capitalize"> > best moving tips</li>
+                                    <li v-for="linkpost in navbarPostLinks" class="text-capitalize"> 
+                                        <a :href="linkpost.link" :class="active ? 'active' : ''">
+                                    {{linkpost.text}}
+                                </a>
+                                    </li>
+                                    
                                 </ul>
                             </nav>
                         </div>
@@ -144,11 +143,6 @@ export default {
                 },
                 {
                     link: '#',
-                    text: 'FAQ',
-                    active: false
-                },
-                {
-                    link: '#',
                     text: 'Blog',
                     active: false
                 },
@@ -157,7 +151,37 @@ export default {
                     text: 'Free Quote',
                     active: false
                 },
-            ]
+            ],
+
+            navbarPostLinks: [
+                {
+                    link: '#',
+                    text: '> Heading out to college?',
+                    active: true
+                },
+                {
+                    link: '#',
+                    text: '> Moving Your Business?',
+                    active: true
+                },
+                {
+                    link: '#',
+                    text: '> Outstanding Quality',
+                    active: false
+                },
+                {
+                    link: '#',
+                    text: '> Cost of Moving',
+                    active: false
+                },
+                {
+                    link: '#',
+                    text: '> Best Moving Tips',
+                    active: false
+                },
+            ],
+
+
         }
     },
 
