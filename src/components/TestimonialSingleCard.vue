@@ -4,7 +4,7 @@
             <div class="col-12 d-flex direction-row justify-content-center px-5">
                 <div v-for="card in TestimonialmultilpleCards" class="card d-flex direction-row px-3 me-5 "
                     style="width: 30rem;">
-                    <img v-bind:srcset="card.src" class="card-img-top d-flex justify-content-center" alt="Card image">
+                    <img v-bind:srcset="card.src" class="card-img-top d-flex justify-content-center ph" alt="Card image">
                     <div class="card-body">
                         <h3 class="text-center">
                             {{ card.title }}
@@ -53,7 +53,7 @@ export default {
 
 
 <style lang="scss">
-img{
+img.ph{
     width: 50px;
     height: 50px;
     border-radius: 50%;
