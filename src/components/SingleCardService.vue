@@ -3,7 +3,10 @@
         <div class="row">
             <div class="col-12 d-flex direction-row justify-content-center px-5">
                 <div v-for="card in multilpleCards" class="card d-flex direction-row px-3 me-5 " style="width: 30rem;">
-                    <img src="card.img" class="card-img-top d-flex justify-content-center" alt="Card image">
+                    <div>
+                        <img :src="card.src" class="card-img-top d-flex justify-content-center" alt="Card image">
+                    </div>
+                    
                     <div class="card-body">
                         <h3 class="text-center">
                             {{ card.title }}
@@ -30,19 +33,19 @@ export default {
         return {
             multilpleCards: [
                 {
-                    src: 'public/img/avada-movers-serviceonephoto-final.jpg',
+                    src: '../public/img/avada-movers-serviceonephoto-final.jpg',
                     title: 'Two Man Teams',
                     p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae.',
                 },
 
                 {
-                    src: 'img/avada-movers-servicetwophoto-final.jpg',
+                    src: '../public/img/avada-movers-servicetwophoto-final.jpg',
                     title: 'We Do The Lifting',
                     p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae.',
                 },
 
                 {
-                    src: 'img/avada-movers-servicethreephoto-final.jpg',
+                    src: '../public/img/avada-movers-servicethreephoto-final.jpg',
                     title: 'Cost To Cost',
                     p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta cum amet soluta obcaecati, sequi natus. Recusandae dolorem sunt beatae.',
                 },
