@@ -54,8 +54,8 @@ export default {
 
 <style lang="scss">
 img.ph{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 </style>
