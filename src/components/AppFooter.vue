@@ -4,66 +4,71 @@
 
         <!--? ABOUT MOVERS POST-->
 
-        <div class="container">
+        <div class="container mb-5">
             <div class="row">
-                <div class="col-12 d-flex direction-row justify-content-center">
+                <div class="col-12 d-flex direction-row justify-content-center mt-5">
 
-                    <!--* ABOUT -->
-                    <div class="movers-about">
-                        <div>
-                            <h4 class="footer-title">
-                                about
-                            </h4>
+                    <div class="d-flex justify-content-around">
+
+                        <!--* ABOUT -->
+                        <div class="movers-about">
+                            <div>
+                                <h4 class="footer-title">
+                                    about
+                                </h4>
+                            </div>
+
+                            <div>
+                                <p class="lh-lg mb-5">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Placeat officiis, expedita beatae
+                                    Placeat officiis, expedita
+                                    beatae
+                                </p>
+                            </div>
+
+                            <div>
+                                <img src="/img/avada-movers-logo.png" alt="Avada Movers logo">
+                            </div>
                         </div>
 
-                        <div>
-                            <p class="lh-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officiis, expedita beatae
-                                tenetur accusamus
-                            </p>
+                        <!--? MOVERS -->
+                        <div class="avada-movers link-avada">
+                            <nav>
+                                <h4 class="footer-title padding-title">
+                                    avada movers
+                                </h4>
+                                <ul>
+                                    <!--! CICLARE CON V-FOR-->
+
+                                    <li> <a href="#">Home</a></li>
+                                    <li>Rates</li>
+                                    <li>Testimonials</li>
+                                    <li>Blog</li>
+                                    <li>Free Quote</li>
+                                </ul>
+                            </nav>
                         </div>
-                        <img src="/img/avada-movers-logo.png" alt="Avada Movers logo">
-                    </div>
 
+                        <!--! POST -->
+                        <div class="avada-movers">
+                            <nav>
+                                <h4 class="footer-title padding-title">
+                                    recent posts
+                                </h4>
+                                <ul>
 
-                    <!--? MOVERS -->
-
-                    <div class="avada-movers">
-                        <nav>
-                            <h4 class="footer-title">
-                                avada movers
-                            </h4>
-                            <ul>
-                                <!--! CICLARE CON V-FOR-->
-
-                                <li>Home</li>
-                                <li>Rates</li>
-                                <li>Testimonials</li>
-                                <li>Blog</li>
-                                <li>Free Quote</li>
-                            </ul>
-                        </nav>
+                                    <!--! CICLARE CON V-FOR-->
+                                    <li class="text-capitalize"> > heading out to college?</li>
+                                    <li class="text-capitalize"> > moving your business?</li>
+                                    <li class="text-capitalize"> > outsanding quality</li>
+                                    <li class="text-capitalize"> > cost of moving</li>
+                                    <li class="text-capitalize"> > best moving tips</li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                     <AppLowerFooter />
-
-
-                    <!--! POST -->
-                    <div class="avada-movers">
-                        <nav>
-                            <h4 class="footer-title">
-                                recent posts
-                            </h4>
-                            <ul>
-
-                                <!--! CICLARE CON V-FOR-->
-                                <li class="text-capitalize"> > heading out to college?</li>
-                                <li class="text-capitalize"> > moving your business?</li>
-                                <li class="text-capitalize"> > outsanding quality</li>
-                                <li class="text-capitalize"> > cost of moving</li>
-                                <li class="text-capitalize"> > best moving tips</li>
-                            </ul>
-                        </nav>
-                    </div>
                 </div>
             </div>
         </div>
@@ -143,8 +148,29 @@ export default {
     text-transform: uppercase;
 }
 
+.padding-title{
+    padding-left: 35px;
+}
+
 h4 {
     margin-right: 4rem;
+}
+
+.movers-about{
+    width: 300px;
+    padding-right: 50px;
+}
+
+.link-avada{
+    padding-right: 100px;
+}
+
+li{
+    padding-left: 0;
+}
+
+li:hover{
+    color: #6abf17;
 }
 
 .green-line-big {
