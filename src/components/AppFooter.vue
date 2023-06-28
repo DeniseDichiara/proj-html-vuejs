@@ -71,6 +71,7 @@
             </div>
         </div>
 
+        <!--! add lower footer componet-->
 
         <div class="green-line-big">
             <div class="container">
@@ -109,6 +110,8 @@
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
 
                 </div>

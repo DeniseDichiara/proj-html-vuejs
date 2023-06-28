@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="mx-auto">
+                    <div class="mx-auto my_make-it">
                         <p class="p-grey text-uppercase my_moving">
                             Moving without the hassle
                         </p>
@@ -49,9 +49,14 @@ export default {
 
 <style lang="scss">
 .header-bg{
-    height: 500px;
+    height: 550px;
     width: 1640px;
     background-image: url('/img/avada-movers-homeherobackground-final.jpg');
     background-size: cover;
+}
+
+.my_make-it{
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
 </style>

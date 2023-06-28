@@ -28,12 +28,17 @@ export default {
 
 <style lang="scss">
 .CallAction {
-    height: 100px;
+    height: 150px;
     background-color: #1775bf;
     color: white;
 }
 
+.CallAction:hover{
+    background-color: deepskyblue;
+
+}
+
 .my_align{
-    line-height: 100px;
+    line-height: 150px;
 }
 </style>

@@ -1,7 +1,5 @@
 <template>
     <main>
-        <p>
-        </p>
         <AppCallAction />
         <AppHeadache />
         <AppServiceSolution />
