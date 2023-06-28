@@ -11,7 +11,10 @@
                         <p class="card-text text-center">
                             {{ card.p }}
                         </p>
-                        <a href="#" class="my_btn-color my_btn d-flex justify-content-center">Read More</a>
+                        <div>
+                            <button type="button" class="my_btn-color my_btn d-flex justify-content-center mx-auto">Read
+                                More</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,5 +54,4 @@ export default {
 </script>
 
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="my_service-solution">
         <SecondaryTitle />
         <SingleCardService />
 
@@ -17,7 +17,7 @@
 <script>
 import SecondaryTitle from './SecondaryTitle.vue';
 import SingleCardService from './SingleCardService.vue';
-import axios from 'axios';
+//import axios from 'axios';
 
 export default {
     name: 'AppServiceSolution',
@@ -42,4 +42,8 @@ export default {
 </script>
 
 
-<style lang="scss"></style>
+<style lang="scss">
+    .my_service-solution{
+        margin-bottom: 10rem;
+    }
+</style>
